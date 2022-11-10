@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(38, 27, 71);
+    color: white;
+}
+.all{
+    display: grid;
+grid-auto-columns: minmax(100px,auto);
+grid-auto-rows: minmax(2px,auto);
+gap: 8px;
+grid-template-areas:
+"head1 head2 head2"
+"head3 head3 head3"
+"head4 head4 head4"
+"footrinimage footrinimage footrinimage"
+    "sl sl nav"
+    "sl sl nav"
+    "sl sl nav"
+   "con con con"
+"cont1 cont2 cont3"
+ "foot foot foot"
+
+;
+
+}
+.footr-in-imge{
+grid-area: footrinimage;
+width: 96.1%;
+height: 42px;
+background-color: rgba(0, 0, 0, 0.658);
+margin-left: 1.1%;
+margin-top:-53px ;
+border-bottom-left-radius:15px ;
+border-bottom-right-radius:15px ;
+}
+#a3{
+    float: right;                                                    
+    margin-top: -19px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px;
+    padding-left: 5px;
+    border-radius: 5px ;
+    transition: 0.5s;
+ 
+border: 1px rgb(255, 0, 0) solid;
+margin-right:15px ;
+
+}
+
+#a3:hover{
+color: rgb(255, 255, 255);
+border: 1px red solid;
+background-color: rgba(0, 0, 0, 0.473);
+}
+#img{
+width: 6px;
+
+}
+
+h5{
+
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.div1{
+    grid-area: head1;
+   
+}
+.img1{
+  width: 200px;
+  margin-left: 10px;
+}
+.div2{
+    grid-area: head2;
+    margin-right: 20px;
+}
+#a1{
+text-decoration: none;
+float: right;
+margin: 10px;
+margin-top: 30px;
+margin-right:15px; 
+color:gold;
+transition: 0.4s;
+}
+#a1:hover{
+    color: black;
+    box-shadow: 0px 0px 0.4pc 0.5pc chartreuse;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+.div3{
+    grid-area: head3;
+}
+.img2{
+width: 96%;
+height: 2px;
+margin-left: 15px;
+
+}
+.div4{
+    grid-area: head4;
+}
+
+.img3{
+    width: 96%;
+    margin-left: 15px;
+    border-radius: 15px;
+   
+}
+
+.div5{
+    grid-area: sl;
+    width: 900px;
+}
+.img4{
+    margin-left: 10px;
+    margin-top: 10px;
+    width:40px ;
+}
+.p1{
+margin-left: 60px;
+margin-top: -30px;
+font-size: 25px;
+font-weight: bold;
+}
+.p2{
+margin-left: 30px;
+margin-top: 20px;
+font-size: 19px;
+}
+h2{
+    margin-left: 60px;
+}
+.img5{
+    margin-left: 10px;
+    margin-top: 20px;
+    width:40px ;
+}
+.p3{
+    margin-left: 60px;
+    margin-top: -30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p4{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+.div6{
+    grid-area: nav;
+    width: 300px;
+    border-radius: 5px;
+    height: 410px;
+    margin-top: 2px;
+    background-color: rgba(119, 111, 111, 1.9);
+    color: black;
+}
+.img11{
+margin-left: -11px;
+
+}
+.p9{
+font-size:25px;
+font-weight: bold;
+margin-left: 10px;
+margin-top: 20px;
+}
+.img7{
+margin-left: 40px;
+width: 140px;
+border: 2px black solid;
+margin-top: 20px;
+}
+.p10{
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.img8{
+    margin-top: 20px;
+    width: 40px;
+}
+
+.div7{
+    grid-area: con;
+}
+.img10{
+    margin-left: 20%;
+    margin-top: -50px;
+    width: 50px;
+
+   
+}
+
+.div8{
+    grid-area: cont1;
+}
+.p5{
+font-weight: bold;
+font-size: 20px;
+margin-top: 13px;
+
+}
+/*.img6{
+    border: 2px black solid; 
+    float: right;
+    
+}*/
+
+.div9{
+    grid-area: cont2;
+}
+.p6{
+margin-left: 50px;
+font-weight: bold;
+font-size: 20px;
+margin-top: -6px;
+}
+.p7{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.div10{
+    grid-area: cont3;
+}
+.p8{
+margin-left: 50px;
+font-weight: bold;
+font-size: 20px;
+margin-top:13px;
+}
+ul{
+    margin-left: 50px;
+}
+#a2{
+    
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+#a2:hover{
+color:black ;
+box-shadow: 0px 0px 0.4pc 0.1pc chartreuse;
+border-radius: 3px;
+    background-color: chartreuse;
+
+}
+.div11{
+    grid-area:foot;
+}
+.img9{
+
+width: 96%;
+margin-left: 2%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+.p11{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#mag{
+    margin-left: 30px;
+    width: 550px;
+}
+form{
+margin-left: 40px;
+font-size: 25px;
+
+}
+table{
+    margin-left:20px;
+}
+.inp{
+    font-size:17px;
+}
+.inp:hover{
+box-shadow: 0px 0px 0.7pc 0.2pc chartreuse;
+
+}
+fieldset{
+    width: 600px;
+}
